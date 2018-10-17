@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery.js" charset="utf-8"></script>
     <script src="js/scripts.js" charset="utf-8"></script>
     <meta charset="utf-8">
-    <title>Online Marketplace</title>
+    <title>Welcome to Gill's Flower Emporium!</title>
   </head>
   <body>
-
+    <div class="container">
+      <h1 class="jumbotron">Gill's Flower Emporium</h1>
+      <div id="shipping">
+        <form id="shippingDetails">
+          <div class="form-group">
+            <label for="firstName">First Name:</label>
+            <input id="firstName" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="middleInitial">Middle Initial:</label>
+            <input id="middleInitial" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name:</label>
+            <input id="lastName" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="addressOne">Address Line One:</label>
+            <input id="addressOne" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="addressTwo">Address Line Two:</label>
+            <input id="addressTwo" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="city">City:</label>
+            <input id="city" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="state">State:</label>
+            <input id="state" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="zipCode">Zip Code:</label>
+            <input id="zipCode" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn btn-default">Enter your shipping details!</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
