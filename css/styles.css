@@ -1,16 +1,7 @@
-#receipt {
-  display: none;
-}
-
 body {
   background-color: lightyellow;
   font-family:fantasy;
   text-align:center;
-}
-
-h1.jumbotron {
-  font-weight:bold;
-  background-color: pink;
 }
 
 li {
@@ -24,4 +15,27 @@ ul {
 img {
   width: 100%;
   height: 200px;
+}
+
+#receipt {
+  display: none;
+  border: solid grey 2px;
+  padding: 3px;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.style-price {
+  border: solid grey 1px;
+  padding: 3px;
+  margin: 10px;
+}
+
+h1.jumbotron {
+  font-weight:bold;
+  background-color: pink;
+}
+
+#receipt p {
+  font-size: 12pt;
 }
